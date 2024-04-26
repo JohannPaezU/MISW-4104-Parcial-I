@@ -3,6 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 import { PlantListComponent } from './plant-list.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 
 describe('PlantListComponent', () => {
@@ -11,6 +12,7 @@ describe('PlantListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
       declarations: [ PlantListComponent ]
     })
     .compileComponents();
