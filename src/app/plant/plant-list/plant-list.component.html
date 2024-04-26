@@ -1,3 +1,24 @@
-<p>
-  plant-list works!
-</p>
+<div class="col-md-8 col-sm-12">
+  <table class="table table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre común</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Clima</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let plant of plants">
+        <td class="id" style="font-weight: bold;">{{plant.id}}</td>
+        <td>{{ plant.nombre_comun }}</td>
+        <td>{{ plant.tipo }}</td>
+        <td>{{ plant.clima }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <div *ngFor="let keyValue of plantsInformation | keyvalue">
+      Total plantas de {{ keyValue.key }}: {{ keyValue.value }}
+    </div>
+</div>
