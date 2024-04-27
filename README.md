@@ -1,27 +1,45 @@
-# NurseryPlantsApp
+# MISW-4104 Parcial I
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Esta es la solución al ejercicio práctico del parcial I de la materia de  "Conceptos básicos de ingeniería de software para la web" de la Maestría en Igeniería de Software.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## NurseryPlantsApp
 
-## Code scaffolding
+Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisitos
+Para poder ejecutar este proyecto debes tener:
 
-## Build
+* [Angular](https://angular.io/)
+* [Node.js](https://nodejs.org/en)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Servidor de Desarrollo
 
-## Running unit tests
+Ejecute `ngserve` para un servidor de desarrollo. Navegue hasta `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos fuente.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Construir el proyecto
 
-## Running end-to-end tests
+Ejecute `ng build` para construir el proyecto. Los artefactos de compilación se almacenarán en el directorio `dist/`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Correr pruebas unitarias
 
-## Further help
+Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Se realizaron las respectivas correciones de las pruebas por defecto en "app.component" y "plant.service".
+Funcionalidades probadas en el componente "plant-list-component":
+* Verificar que exista el componente de la tabla que contiene la información.
+* Verificar que exista un encabezado en la tabla.
+* Verificar que existan 3 filas o elementos en la tabla.
+* Verificar que existan 4 columnas en la tabla.
+* Verificar que la información de la tabla se muestre correctamente con los datos aleatorios generados:
+  * Los ids generados coinciden con la información mostrada en la columna correspondiente.
+  * Los nombres comunes generados coinciden con la información mostrada en la columna correspondiente.
+  * Los tipos generados coinciden con la información mostrada en la columna correspondiente.
+  * Los climas generados coinciden con la información mostrada en la columna correspondiente.
+
+## Licencia
+Desarrollado por **Johann Páez**.
+
+Este programa es de uso gratuito, puede ser utilizado por cualquier persona.
+
+Los términos de la licencia se pueden encontrar en el siguiente archivo. [License](LICENSE).
