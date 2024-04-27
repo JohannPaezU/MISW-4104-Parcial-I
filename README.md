@@ -37,6 +37,8 @@ Funcionalidades probadas en el componente "plant-list-component":
   * Los tipos generados coinciden con la información mostrada en la columna correspondiente.
   * Los climas generados coinciden con la información mostrada en la columna correspondiente.
 
+![TestUnitariosParcial-I](https://github.com/JohannPaezU/MISW-4104-Parcial-I/assets/158114089/c4e38a75-4498-4499-b4a4-ac0926ee2b2f)
+
 ## Licencia
 Desarrollado por **Johann Páez**.
 
